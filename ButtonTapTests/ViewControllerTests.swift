@@ -8,6 +8,6 @@ final class ViewControllerTests: XCTestCase {
         let viewController: ViewController = storyboard.instantiateViewController(identifier: String(describing: ViewController.self))
         viewController.loadViewIfNeeded()
         
-        viewController.button.sendActions(for: .touchUpInside)
+        tap(viewController.button)
     }
 }

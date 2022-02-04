@@ -14,6 +14,7 @@
 		22B1C2F527ADBCC7000D6EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B1C2F427ADBCC7000D6EB7 /* Assets.xcassets */; };
 		22B1C2F827ADBCC7000D6EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B1C2F627ADBCC7000D6EB7 /* LaunchScreen.storyboard */; };
 		22B1C31C27ADC125000D6EB7 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C31B27ADC125000D6EB7 /* ViewControllerTests.swift */; };
+		22B1C31E27ADC4C6000D6EB7 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C31D27ADC4C6000D6EB7 /* TestHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		22B1C2F927ADBCC7000D6EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22B1C2FE27ADBCC7000D6EB7 /* ButtonTapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonTapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B1C31B27ADC125000D6EB7 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		22B1C31D27ADC4C6000D6EB7 /* TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				22B1C31B27ADC125000D6EB7 /* ViewControllerTests.swift */,
+				22B1C31D27ADC4C6000D6EB7 /* TestHelpers.swift */,
 			);
 			path = ButtonTapTests;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22B1C31C27ADC125000D6EB7 /* ViewControllerTests.swift in Sources */,
+				22B1C31E27ADC4C6000D6EB7 /* TestHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
